@@ -8,6 +8,9 @@ function tambahTugas(teks) {
     const item = document.createElement("li");
     const label = document.createElement("span");
     label.textContent = teks;
+    label.addEventListener("click", function () {
+        item.classList.toggle("selesai");
+    });
     item.appendChild(label);
     daftar.appendChild(item);
 }
