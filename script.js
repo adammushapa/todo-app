@@ -12,6 +12,12 @@ function tambahTugas(teks) {
         item.classList.toggle("selesai");
     });
     item.appendChild(label);
+    const tombolHapus = document.createElement("button");
+    tombolHapus.textContent = "Hapus";
+    tombolHapus.addEventListener("click", function () {
+        item.remove();
+    });
+    item.appendChild(tombolHapus);
     daftar.appendChild(item);
 }
 
