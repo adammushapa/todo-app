@@ -39,7 +39,8 @@ button {
 }
 button:hover {background-color: #0369a1;c}
 
-#penghitung { color: #64748b; margin-buttom: 0.75rem; }
+#penghitung { color: #64748b; margin-bottom: 0.75rem; }
+
 
 ul { list-style: none; }
 
