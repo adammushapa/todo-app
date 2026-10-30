@@ -1,0 +1,59 @@
+* { box-sizing: border-box; margin: 0; padding: 0;}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    padding: 1rem;
+}
+
+.app {
+    max-width: 500px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+h1 { margin-bottom: 1rem; }
+
+form { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+
+input {
+    flex: 1;
+    padding: 0.6rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #0284c7;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover {background-color: #0369a1;c}
+
+#penghitung { color: #64748b; margin-buttom: 0.75rem; }
+
+ul { list-style: none; }
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+li span { flex: 1; cursor: pointer; }
+li.selesai span { text-decoration: line-through; color: #94a3b8; }
+
+li button { background-color: #ef4444; padding: 0.3rem 0.7rem; font-size: 0.85rem; }
+li button:hover { background-color: #dc2626;}
